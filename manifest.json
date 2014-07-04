@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+
+	"name": "MDS Extension",
+	"options_page": "options.html",
+
+
+	"description": "This extension is under development for MDS Gateways."
+	,
+
+	"version": "1.0",
+
+	"permissions": [
+		"https://secure.flickr.com/"
+	],
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+}
